@@ -100,11 +100,12 @@ Deploying Java Applications with Docker and Kubernetes
 
 2) Create docker hub account
 
-3) Build the image in local -> docker build -t praveensingam1994/shopfront:latest .
+3) Build the image in local -> 
+docker build -t abafzal26/shopfront:latest .
 
-docker build -t praveensingam1994/productcatalogue:latest .
+docker build -t abafzal26/productcatalogue:latest .
 
-docker build -t praveensingam1994/stockmanager:latest .
+docker build -t abafzal26/stockmanager:latest .
 
 4) Push the image to your docker hub -> docker push praveensingam1994/shopfront:latest 
 
